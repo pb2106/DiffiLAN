@@ -11,6 +11,7 @@ It shows how two peers can exchange keys securely and derive a **shared secret**
 * 🔑 **Diffie-Hellman Key Exchange** – Securely exchange keys between two peers.
 * 🔐 **Shared Secret Generation** – Both peers independently compute the same secret key.
 * 🌍 **Client-Server Communication** – Supports running as a server and optionally connecting as a client.
+* 📑 **Public and Private Keys** - You can choose to update the keys in the script or generate a stronger keys, this script focuses on simulation and isnt made with commercial or any other use case in mind.
 
 ---
 
@@ -27,8 +28,8 @@ It shows how two peers can exchange keys securely and derive a **shared secret**
 1. Clone or download this repository:
 
    ```bash
-   git clone https://github.com/yourusername/diffie-hellman-lan.git
-   cd diffie-hellman-lan
+   git clone https://github.com/pb2106/DiffiLAN
+   cd DiffiLAN
    ```
 
 2. Install dependencies:
@@ -44,7 +45,7 @@ It shows how two peers can exchange keys securely and derive a **shared secret**
 1. Run the script:
 
    ```bash
-   python dh_lan.py
+   python deffiee.py
    ```
 
 2. The program will:
@@ -58,14 +59,14 @@ It shows how two peers can exchange keys securely and derive a **shared secret**
    * **Peer 1 (Server):**
 
      ```bash
-     python dh_lan.py
+     python deffiee.py
      Enter a private key: 7
      Enter the peer's IP (leave blank if only running as server):
      ```
    * **Peer 2 (Client):**
 
      ```bash
-     python dh_lan.py
+     python deffiee.py
      Enter a private key: 11
      Enter the peer's IP (leave blank if only running as server): 192.168.1.10
      ```
